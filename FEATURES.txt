@@ -1,0 +1,14 @@
+GENERAL POPUP
+- Toggle Button to turn on "turn off distractions"
+- Center area for the brain teasers
+- Maybe a counter at the top to show how many times youve opened up a "banned" website, like social media
+
+
+OPENING DISTRACTING APP
+- in general, update counter
+- if app is allowed, have a popup that shows how many times the app has been opened today
+
+- if app is not allowed, close the site and pop up hwo many times youve attemped to open it
+
+
+
