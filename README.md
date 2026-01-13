@@ -1,4 +1,4 @@
-# CareerLaunch
+# CareerLaunchExtension
 
 1. Clone the repo and find it on your device
 
