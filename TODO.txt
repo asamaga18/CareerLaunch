@@ -1,0 +1,8 @@
+- Make Name for the Extension
+- Make Logo for Extension
+- Make Description for Extension
+
+
+- Finalize Feature List
+- Finalize Color and Look for popup
+
