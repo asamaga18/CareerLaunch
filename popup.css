@@ -19,5 +19,7 @@ body {
 h1 {
   text-align: center;
   font-family: 'Lobster Two', cursive;
-  color:#111f49;
+  color:#0c1635;
+  font-size: 30px;
+  opacity: 0.9;
 }
