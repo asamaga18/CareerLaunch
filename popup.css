@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 body {
   margin: 0;
-  padding: 0;
-  width: 300px;
-  height: 200px;
+  padding: 12px 12px 16px 12px;
+  width: 360px;
+  height: auto;
+  min-height: 260px;
   background-color: /*#b5adee #b3b5ff*/ #978af5;
+  box-sizing: border-box;
 }
 
 #logo-area {
@@ -28,4 +30,129 @@ p {
   font-family: 'Quicksand', sans-serif;
   color:#0c1635;
   text-align: center;
+}
+
+#blocked-toggle {
+  display: block;
+  margin: 12px auto 18px auto;
+  padding: 8px 12px;
+  background: #111f49;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+}
+
+#blocked-panel {
+  padding: 0 12px 18px 12px;
+}
+
+#blocked-panel label {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  color:#0c1635;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+#blocked-list {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #111f49;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+  resize: vertical;
+}
+
+#blocked-save {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #0c1635;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+}
+
+#blocked-status {
+  margin-top: 6px;
+  font-family: 'Quicksand', sans-serif;
+  color: #0c1635;
+  text-align: left;
+}
+
+#brain-teaser-section {
+  background: rgba(17, 31, 73, 0.15);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 16px 0;
+  text-align: center;
+}
+
+#brain-teaser-section h2 {
+  font-family: 'Lobster Two', cursive;
+  color: #0c1635;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+#brain-teaser-question {
+  font-family: 'Quicksand', sans-serif;
+  color: #0c1635;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 40px;
+  margin: 10px 0;
+}
+
+#brain-teaser-answer {
+  font-family: 'Quicksand', sans-serif;
+  color: #0c1635;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+#reveal-answer-btn {
+  display: inline-block;
+  margin: 10px 3px 0 3px;
+  padding: 8px 16px;
+  background: #111f49;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#reveal-answer-btn:hover {
+  background: #0c1635;
+}
+
+#next-teaser-btn {
+  display: inline-block;
+  margin: 10px 3px 0 3px;
+  padding: 8px 16px;
+  background: #111f49;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#next-teaser-btn:hover {
+  background: #0c1635;
 }

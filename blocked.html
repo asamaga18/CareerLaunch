@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Blocked</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, sans-serif;
+      background: #0c1635;
+      color: #f4f5fb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      text-align: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+    p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+    #host {
+      font-weight: 700;
+      color: #ffd166;
+      font-size: 20px;
+    }
+    #logo {
+      width: 180px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <img id="logo" src="./logo4.png" alt="MindGym logo">
+  <h1>Site Blocked</h1>
+  <p>This site is blocked by MindGym.</p>
+  <p id="host"></p>
+  <p>Try doing some brain teasers through the extension.</p>
+  <script>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const host = params.get("host");
+      if (host) {
+        document.getElementById("host").textContent = host;
+      }
+    })();
+  </script>
+</body>
+</html>

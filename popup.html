@@ -12,7 +12,22 @@
     </section>
     <h1>Welcome to MindGym</h1>
     <p>With this extension, MindGym helps you limit your time on social media and AI by redirecting your attention to a productivity-focused environment, full of fun minigames to help get your mind racing with creativity!</p>
-
+    
+    <section id="brain-teaser-section">
+        <h2>Brain Teaser</h2>
+        <p id="brain-teaser-question">Loading...</p>
+        <p id="brain-teaser-answer" hidden></p>
+        <button id="reveal-answer-btn">Reveal Answer</button>
+        <button id="next-teaser-btn">Next</button>
+    </section>
+    
+    <button id="blocked-toggle">Blocked Sites</button>
+    <section id="blocked-panel" hidden>
+        <label for="blocked-list">One host per line (e.g., example.com)</label>
+        <textarea id="blocked-list" rows="6" placeholder="facebook.com"></textarea>
+        <button id="blocked-save">Save</button>
+        <p id="blocked-status" aria-live="polite"></p>
+    </section>
     
     <script src="popup.js"></script>
 </body>

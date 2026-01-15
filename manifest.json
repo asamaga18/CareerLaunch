@@ -1,9 +1,24 @@
 {
-    "manifest_version" : 3,
-    "name" : "Career Launch Extension",
-    "version" : "1.0",
-    "description" : "Enter Desc Later",
+    "manifest_version": 3,
+    "name": "MindGym",
+    "version": "1.0",
+    "description": "Enter Desc Later",
+    "icons": {
+        "128": "manifestLogo.png"
+    },
     "action": {
-        "default_popup": "popup.html"
-    }
+        "default_popup": "popup.html",
+        "default_icon": "manifestLogo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "notifications"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
 }
